@@ -8,7 +8,7 @@ public class Calculator {
     boolean[] array;
 
     public Calculator(int limit) {
-        array = new boolean[limit+1];
+        array = new boolean[limit];
         Arrays.fill(array, true);
         array[0] = false;
         array[1] = false;
